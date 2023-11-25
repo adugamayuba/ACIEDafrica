@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
           <div className="w-fit space-x-[50px] flex ">
             <Link
-              href="#about"
+              href="/about"
               className="text-[#0e0e0e] text-xl cursor-pointer  font-[400] "
             >
               About us
