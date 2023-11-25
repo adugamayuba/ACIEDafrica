@@ -10,15 +10,15 @@ import {HiOutlineLocationMarker} from "react-icons/hi"
 import { ArrowRight, WhiteLogo } from '../../assets/svg';
 const navigation = [
   {
-    url: "#why",
+    url: "/safe-migration",
     name: "Save migration",
   },
   {
-    url: "#",
+    url: "/about",
     name: "About us",
   },
   {
-    url: "#",
+    url: "#contact",
     name: "Contact us",
   },
  
@@ -38,15 +38,15 @@ const privacy = [
 
 const terms = [
   {
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=61553613248930",
     name: "Our Blog",
   },
   {
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=61553613248930",
     name: "FAQs",
   },
   {
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=61553613248930",
     name: "Privacy policy",
   },
 ];
@@ -66,12 +66,16 @@ const Footer = () => {
                     Explore how Aciedafrica is amplifying women's voices in
                     Migration decisions.
                   </p>
-                  <div className="mt-6 flex space-x-2 items-center">
+                  <Link
+                    href="https://www.facebook.com/profile.php?id=61553613248930"
+                    target='_blank'
+                    className="mt-6 flex space-x-2 items-center"
+                  >
                     <p className="text-[#ebebeb] text-base font-medium ">
                       Learn More
                     </p>
                     <ArrowRight />
-                  </div>
+                  </Link>
                 </div>
                 <div className=" w-full lg:w-8/12 flex lg:flex-row  lg:justify-between flex-wrap ">
                   {/* start of a park */}
@@ -125,6 +129,7 @@ const Footer = () => {
                           <Link
                             key={index}
                             href={item.url}
+                            target='_blank'
                             className="text-white text-sm lg:text-sm"
                           >
                             {item?.name}

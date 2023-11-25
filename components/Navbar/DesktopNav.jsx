@@ -14,8 +14,11 @@ const Navbar = () => {
     <div className="fixed top-0 right-0 left-0 z-high w-full h-[85px]  items-center nav-styl hidden md:flex bg-white">
       <ContainerLayout>
         <div className="w-full flex justify-between items-center mt-4">
-          <div className="w-fit cursor-pointer" onClick={() => router.push("/")}>
-           <Image src={logo} alt="acied logo" />
+          <div
+            className="w-fit cursor-pointer"
+            onClick={() => router.push("/")}
+          >
+            <Image src={logo} alt="acied logo" />
           </div>
           <div className="w-fit space-x-[50px] flex ">
             <Link
@@ -31,12 +34,13 @@ const Navbar = () => {
               Safe migration
             </Link>
             <Link
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61553613248930"
+              target="_blank"
               className="text-[#0e0e0e] text-xl cursor-pointer  font-[400] "
             >
               Testimonials
             </Link>
-          
+
             <Link
               href="#contact"
               className="text-[#0e0e0e] text-xl cursor-pointer  font-[400] "
@@ -60,7 +64,6 @@ const Navbar = () => {
           </div>
         </div>
       </ContainerLayout>
-    
     </div>
   );
 };

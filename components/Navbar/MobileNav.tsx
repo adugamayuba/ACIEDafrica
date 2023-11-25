@@ -13,7 +13,7 @@ const styles = {
 }
 const MobileNav = ({present} : any ) => {
     const [show, setShow] = useState(false);
-    const router = useRouter();
+  
     return (
       <div>
         <div className="w-full bg-white pt-4 fixed top-0 nav-index  left-0 right-0 flex flex-col md:hidden overflow-x-hidden">
@@ -48,13 +48,14 @@ const MobileNav = ({present} : any ) => {
                 </div>
                 <div className="w-full py-2 " onClick={() => setShow(false)}>
                   <Link
-                    href="#feature"
+                    href="https://www.facebook.com/profile.php?id=61553613248930"
+                    target='_blank'
                     className="text-[#4f4f4f] text-lg font-[500]"
                   >
                     Testimonials
                   </Link>
                 </div>
-            
+
                 <div className="w-full py-2 " onClick={() => setShow(false)}>
                   <Link
                     href="#contact"
@@ -65,7 +66,8 @@ const MobileNav = ({present} : any ) => {
                 </div>
                 <div className="w-full flex items-center space-x-4 pt-20 ">
                   <Link
-                    href="/#contact"
+                    href="https://www.facebook.com/profile.php?id=61553613248930"
+                    target="_blank"
                     className="w-auto  px-8 py-4 border border-customBlack text-customBlack flex items-center justify-center rounded-[6px] "
                   >
                     Contact us

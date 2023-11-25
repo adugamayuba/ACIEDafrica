@@ -20,9 +20,9 @@ const Hero = () => {
           </p>
           <div className="mt-12 ">
             <Link
-              href="/contact-us"
-              // target="_blank"
-              // rel="noopener noreferrer"
+              href="https://www.facebook.com/profile.php?id=61553613248930"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-auto  px-8 py-4 bg-white hover:bg-primary text-customBlack hover:text-white flex items-center justify-center "
             >
               Contact us

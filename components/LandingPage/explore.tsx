@@ -2,8 +2,11 @@ import React from 'react'
 import ContainerLayout from '../../Layouts/ContainerLayout';
 import globe from "../../assets/png/half-globe.png";
 import Image from 'next/image';
-import {A,ArrowForward,B,C} from "../../assets/svg/index"
+import { A, ArrowForward, B, C } from "../../assets/svg/index"
+import { useRouter } from 'next/router';
+import Link from 'next/link';
 const Explore = () => {
+  const router = useRouter();
     return (
       <div className="w-full bg-[#F7F7F7] py-12 lg:py-[160px]">
         <ContainerLayout>
@@ -24,7 +27,10 @@ const Explore = () => {
             {/* lefr side */}
             <div className="w-full grid lg:grid-cols-2 gap-8 ">
               {/* start  */}
-              <div className="w-full h-[256px] bg-primary p-6 flex flex-col justify-between">
+              <div
+                className="w-full h-[256px] bg-primary p-6 flex flex-col justify-between cursor-pointer"
+                onClick={() => router.push("/about")}
+              >
                 <p className="text-white noto">Aciedafrica in view</p>
 
                 <span>
@@ -33,7 +39,10 @@ const Explore = () => {
               </div>
               {/* end  */}
               {/* start  */}
-              <div className="w-full h-[256px] bg-primary p-6 flex flex-col justify-between">
+              <div
+                className="w-full h-[256px] bg-primary p-6 flex flex-col justify-between cursor-pointer"
+                onClick={() => router.push("/safe-migration")}
+              >
                 <p className="text-white noto">Migration Practices</p>
 
                 <span>
@@ -42,7 +51,10 @@ const Explore = () => {
               </div>
               {/* end  */}
               {/* start  */}
-              <div className="w-full h-[256px] bg-primary p-6 flex flex-col justify-between">
+              <div
+                className="w-full h-[256px] bg-primary p-6 flex flex-col justify-between"
+                onClick={() => router.push("/safe-migration")}
+              >
                 <p className="text-white noto">
                   Empowering Women in Decision-Making
                 </p>
@@ -53,22 +65,22 @@ const Explore = () => {
               </div>
               {/* end  */}
               {/* start  */}
-                        <div className="w-full h-[256px] bg-[#24A83A] p-6 flex flex-col justify-between relative overflow-x-hidden">
-                            <div className="absolute left-0 right-0 flex justify-end bottom-[10px] z-1">
-                    <Image src={globe} alt={''} className='opacity-20' />
-                            </div>
+              <Link
+                href={"https://www.facebook.com/profile.php?id=61553613248930"}
+                className="w-full h-[256px] bg-[#24A83A] p-6 flex flex-col justify-between relative overflow-x-hidden"
+              >
+                <div className="absolute left-0 right-0 flex justify-end bottom-[10px] z-1">
+                  <Image src={globe} alt={""} className="opacity-20" />
+                </div>
                 <p className="text-white noto">Learn More</p>
 
-                <div className='border-[#f7f7f7] space-x-2 border flex items-center text-white text-lg font-medium w-fit p-3 '>
-                                <span>
-                                Contact us
-                 </span>
-                                <span>
-                                
-                                <ArrowForward />
-                                </span>
+                <div className="border-[#f7f7f7] space-x-2 border flex items-center text-white text-lg font-medium w-fit p-3 ">
+                  <span>Contact us</span>
+                  <span>
+                    <ArrowForward />
+                  </span>
                 </div>
-              </div>
+              </Link>
               {/* end  */}
             </div>
           </div>

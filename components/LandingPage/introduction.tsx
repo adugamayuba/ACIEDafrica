@@ -23,7 +23,7 @@ const Introduction = () => {
         </p>
         <div className="mt-12 w-fit">
           <Link
-            href="/contact-us"
+            href="/safe-migration"
             // target="_blank"
             // rel="noopener noreferrer"
             className="w-auto  px-8 py-4 bg-white hover:bg-primary text-customBlack hover:text-white flex items-center justify-center "
