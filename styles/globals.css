@@ -41,6 +41,20 @@ background: rgba(208, 208, 210, 0.25);
   background-size: cover;
   /* background-color: #FFFFFF00, #FFFFFFE5; */
 }
+.about-hero-bg{
+  background: url('/about-hero.png');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  /* background-color: #FFFFFF00, #FFFFFFE5; */
+}
+.resources-bg{
+  background: url('/spirol.png');
+  width: 100%;
+  min-height: 560px;
+  background-size: cover;
+
+}
 .con-bg{
     background: url('/women.jpg');
   width: 100%;

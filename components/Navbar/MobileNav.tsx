@@ -32,18 +32,18 @@ const MobileNav = ({present} : any ) => {
               <div className="flex flex-col w-full px-4 mt-8 space-y-4">
                 <div className="w-full py-2 " onClick={() => setShow(false)}>
                   <Link
-                    href="#why"
+                    href="/about"
                     className="text-[#4f4f4f] text-lg font-[500]"
                   >
-                    Features
+                    About us
                   </Link>
                 </div>
                 <div className="w-full py-2 " onClick={() => setShow(false)}>
                   <Link
-                    href="#pricing"
+                    href="/safe-migration"
                     className="text-[#4f4f4f] text-lg font-[500]"
                   >
-                    Pricing
+                    Safe Migration
                   </Link>
                 </div>
                 <div className="w-full py-2 " onClick={() => setShow(false)}>
@@ -54,14 +54,7 @@ const MobileNav = ({present} : any ) => {
                     Testimonials
                   </Link>
                 </div>
-                <div className="w-full py-2 " onClick={() => setShow(false)}>
-                  <Link
-                    href="#feature"
-                    className="text-[#4f4f4f] text-lg font-[500]"
-                  >
-                    Blog
-                  </Link>
-                </div>
+            
                 <div className="w-full py-2 " onClick={() => setShow(false)}>
                   <Link
                     href="#contact"
@@ -72,7 +65,7 @@ const MobileNav = ({present} : any ) => {
                 </div>
                 <div className="w-full flex items-center space-x-4 pt-20 ">
                   <Link
-                    href="/#"
+                    href="/#contact"
                     className="w-auto  px-8 py-4 border border-customBlack text-customBlack flex items-center justify-center rounded-[6px] "
                   >
                     Contact us

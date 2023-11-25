@@ -19,13 +19,13 @@ const Navbar = () => {
           </div>
           <div className="w-fit space-x-[50px] flex ">
             <Link
-              href="#why"
+              href="#about"
               className="text-[#0e0e0e] text-xl cursor-pointer  font-[400] "
             >
               About us
             </Link>
             <Link
-              href="#pricing"
+              href="/safe-migration"
               className="text-[#0e0e0e] text-xl cursor-pointer  font-[400] "
             >
               Safe migration
@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
           <div className="w-fit flex items-center  space-x-4   ">
             <p
-              onClick={() => router.push("/waitlist")}
+              onClick={() => router.push("#contact")}
               className="w-auto  px-8 py-4 hover:border hover:border-customBlack text-white hover:bg-white bg-primary hover:text-customBlack flex items-center justify-center   cursor-pointer"
             >
               Contact us

@@ -3,12 +3,9 @@ import Navbar from "../components/Navbar/DesktopNav";
 
 import MobileNav from "../components/Navbar/MobileNav";
 import Hero from "../components/LandingPage/Hero";
-import Why from "../components/LandingPage/Why";
 import ContactUs from "../components/LandingPage/ContactUs";
 import Footer from "../components/LandingPage/Footer";
-import Welcome from "../components/LandingPage/Welcome";
 
-import Pricing from "../components/LandingPage/Pricing";
 import Introduction from "../components/LandingPage/introduction";
 import Explore from "../components/LandingPage/explore";
 import Voices from "../components/LandingPage/voices";
