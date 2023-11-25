@@ -1,6 +1,8 @@
 import React from 'react'
 import ContainerLayout from '../../Layouts/ContainerLayout'
 import { Rlogo } from '../../assets/svg';
+import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const Resources = () => {
     return (
@@ -14,31 +16,31 @@ const Resources = () => {
                 </h1>
                 <div className="w-full grid grid-cols-1 lg:grid-cols-3 max-w-[1100px] gap-6 mt-10 lg:mt-[60px] mx-auto   ">
                   {/* starty */}
-                  <div className="bg-white flex flex-col justify-between min-h-[258px] p-6">
+                  <Link href="https://www.facebook.com/profile.php?id=61553613248930" target='_blank'  className="bg-white flex flex-col justify-between min-h-[258px] p-6" >
                     <Rlogo />
 
                     <p className="text-customBlack font-bold text-sm lg:text-lg">
                       Infographics on safe migration practices
                     </p>
-                  </div>
+                  </Link>
                   {/* end */}
                   {/* starty */}
-                  <div className="bg-white flex flex-col justify-between min-h-[258px] p-6">
+                  <Link href="https://www.facebook.com/profile.php?id=61553613248930" target='_blank'  className="bg-white flex flex-col justify-between min-h-[258px] p-6">
                     <Rlogo />
 
                     <p className="text-customBlack font-bold text-sm lg:text-lg">
                       Educational videos
                     </p>
-                  </div>
+                  </Link>
                   {/* end */}
                   {/* starty */}
-                  <div className="bg-white flex flex-col justify-between min-h-[258px] p-6">
+                  <Link href="https://www.facebook.com/profile.php?id=61553613248930" target='_blank'  className="bg-white flex flex-col justify-between min-h-[258px] p-6">
                     <Rlogo />
 
                     <p className="text-customBlack font-bold text-sm lg:text-lg">
                       Downloadable guides
                     </p>
-                  </div>
+                  </Link>
                   {/* end */}
                 </div>
               </div>
