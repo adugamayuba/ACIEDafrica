@@ -42,7 +42,7 @@ export default function App({ Component, pageProps }) {
        />
        <Script
          id="google"
-         src={`https://www.googletagmanager.com/gtag/js?id=G-940REDKEWW`}
+         src={`https://www.googletagmanager.com/gtag/js?id=G-VDJDMPKH05`}
          type="text/javascript"
          strategy="lazyOnload"
        />
@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }) {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config','G-940REDKEWW' );`}
+  gtag('config','G-VDJDMPKH05' );`}
        </Script>
      </ThemeProvider>
    );
