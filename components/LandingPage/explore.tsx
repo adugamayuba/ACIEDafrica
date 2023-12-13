@@ -31,10 +31,7 @@ const Explore = () => {
                 className="w-full h-[256px] bg-orange p-6 flex flex-col justify-between cursor-pointer"
                 onClick={() => router.push("/about")}
               >
-                <p className="text-white noto">
-                  Socioeconomic Policy Research, Advocacy and Stakeholders
-                  Engagement
-                </p>
+                <p className="text-white noto">Aciedafrica in view</p>
 
                 <span>
                   <A />
@@ -46,10 +43,7 @@ const Explore = () => {
                 className="w-full h-[256px] bg-black p-6 flex flex-col justify-between cursor-pointer"
                 onClick={() => router.push("/safe-migration")}
               >
-                <p className="text-white noto">
-                  Entrepreneurial Skills, Enterprises Development, TVET,
-                  Mentoring and Support for Youth and Women
-                </p>
+                <p className="text-white noto">Migration Practices</p>
 
                 <span>
                   <B />
@@ -62,7 +56,7 @@ const Explore = () => {
                 onClick={() => router.push("/safe-migration")}
               >
                 <p className="text-white noto">
-                  Sustainable and Inclusive Agriculture
+                  Empowering Women in Decision-Making
                 </p>
 
                 <span>
@@ -79,7 +73,7 @@ const Explore = () => {
                   <Image src={globe} alt={""} className="opacity-20" />
                 </div>
                 <p className="text-white noto">
-                  Gender Studies, Disability Rights and Social Development
+                  Learn More
                 </p>
 
                 <div className="border-[#f7f7f7] space-x-2 border flex items-center text-white text-lg font-medium w-fit p-3 ">

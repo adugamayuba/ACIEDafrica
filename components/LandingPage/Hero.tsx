@@ -29,7 +29,7 @@ const Hero = () => {
   
   
   return (
-    <div className={`w-full  py-24 flow-hide ${images[currentImageIndex]}`}>
+    <div className={`w-full   py-24 flow-hide ${images[currentImageIndex]}`}>
       <ContainerLayout>
         <div
           className=" flex flex-col items-start flow-hide"
