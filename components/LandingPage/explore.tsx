@@ -28,10 +28,13 @@ const Explore = () => {
             <div className="w-full grid lg:grid-cols-2 gap-8 ">
               {/* start  */}
               <div
-                className="w-full h-[256px] bg-primary p-6 flex flex-col justify-between cursor-pointer"
+                className="w-full h-[256px] bg-orange p-6 flex flex-col justify-between cursor-pointer"
                 onClick={() => router.push("/about")}
               >
-                <p className="text-white noto">Aciedafrica in view</p>
+                <p className="text-white noto">
+                  Socioeconomic Policy Research, Advocacy and Stakeholders
+                  Engagement
+                </p>
 
                 <span>
                   <A />
@@ -40,10 +43,13 @@ const Explore = () => {
               {/* end  */}
               {/* start  */}
               <div
-                className="w-full h-[256px] bg-primary p-6 flex flex-col justify-between cursor-pointer"
+                className="w-full h-[256px] bg-black p-6 flex flex-col justify-between cursor-pointer"
                 onClick={() => router.push("/safe-migration")}
               >
-                <p className="text-white noto">Migration Practices</p>
+                <p className="text-white noto">
+                  Entrepreneurial Skills, Enterprises Development, TVET,
+                  Mentoring and Support for Youth and Women
+                </p>
 
                 <span>
                   <B />
@@ -56,7 +62,7 @@ const Explore = () => {
                 onClick={() => router.push("/safe-migration")}
               >
                 <p className="text-white noto">
-                  Empowering Women in Decision-Making
+                  Sustainable and Inclusive Agriculture
                 </p>
 
                 <span>
@@ -72,7 +78,9 @@ const Explore = () => {
                 <div className="absolute left-0 right-0 flex justify-end bottom-[10px] z-1">
                   <Image src={globe} alt={""} className="opacity-20" />
                 </div>
-                <p className="text-white noto">Learn More</p>
+                <p className="text-white noto">
+                  Gender Studies, Disability Rights and Social Development
+                </p>
 
                 <div className="border-[#f7f7f7] space-x-2 border flex items-center text-white text-lg font-medium w-fit p-3 ">
                   <span>Contact us</span>

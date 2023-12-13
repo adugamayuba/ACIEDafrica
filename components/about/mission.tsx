@@ -1,9 +1,9 @@
 import ContainerLayout from "../../Layouts/ContainerLayout"
 import Image from "next/image";
-import pic from "../../assets/png/vision-pic.png"
+import pic from "../../assets/png/about-mission.png"
 const Mission = () => {
   return (
-    <div className="w-full bg-primary lg:py-[120px] py-16">
+    <div className="w-full bg-orange lg:py-[120px] py-16">
       <ContainerLayout>
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* start */}

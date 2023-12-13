@@ -34,6 +34,7 @@ background: rgba(208, 208, 210, 0.25);
 .grey-bg{
   background: rgba(196, 196, 196, 0.10);
 }
+
 .fine-bg{
   background: url('/hero-bg.png');
   width: 100%;
@@ -41,6 +42,29 @@ background: rgba(208, 208, 210, 0.25);
   background-size: cover;
   /* background-color: #FFFFFF00, #FFFFFFE5; */
 }
+.bg-one{
+  background: url('/a-star.png');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  /* background-color: #FFFFFF00, #FFFFFFE5; */
+}
+.bg-two{
+  background: url('/b-star.png');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  /* background-color: #FFFFFF00, #FFFFFFE5; */
+}
+.bg-three{
+  background: url('/c-star.png');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  /* background-color: #FFFFFF00, #FFFFFFE5; */
+}
+
+
 .about-hero-bg{
   background: url('/about-hero.png');
   width: 100%;
@@ -60,7 +84,7 @@ background: rgba(208, 208, 210, 0.25);
   width: 100%;
   height: auto;
   background-size: cover;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
 }
 .blue-bg{
   background: url('/fine-bg.png');

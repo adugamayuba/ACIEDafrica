@@ -18,6 +18,7 @@ module.exports = {
         ash: "#333333",
         deepBlue: "#020E20",
         customBlack: "#0e0e0e",
+        orange:"#FE5006",
 
         neutral: {
           500: "#5E5E5E",
