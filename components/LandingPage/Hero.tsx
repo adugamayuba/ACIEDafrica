@@ -40,13 +40,11 @@ const Hero = () => {
             African Centre for Innovation, Education and Development
           </h1>
           <p className="xl:text-xl  text-white text-base font-light text-start mt-6 ">
-            Learn about safe migration practices and protocols to protect
-            yourself.
+            learn more about who we are and what we do
           </p>
           <div className="mt-12 ">
             <Link
               href="/about"
-              
               className="w-auto  px-8 py-4 bg-orange hover:bg-white text-white hover:text-customBlack flex items-center justify-center rounded-[4px]"
             >
               Learn more
