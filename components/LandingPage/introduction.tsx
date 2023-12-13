@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import intro from "../../assets/png/cry-woman.png";
+import intro from "../../assets/png/cry-womans.png";
 import Link from 'next/link';
 const Introduction = () => {
   return (
