@@ -8,7 +8,7 @@ const Introduction = () => {
       <div className="w-full lg:w-5/12">
         <Image src={intro} alt="intro" className="w-full h-auto" />
       </div>
-      <div className="w-full lg:w-7/12 bg-black flex items-center  justify-center">
+      <div className="w-full lg:w-7/12 bg-deepBlue flex items-center  justify-center">
         <div className="flex flex-col max-w-[585px] px-4 py-4 lg:py-0">
           <h1 className="text-white text-[28px] mt-4 xl:text-[56px] nuto font-bold ">
             Introduction

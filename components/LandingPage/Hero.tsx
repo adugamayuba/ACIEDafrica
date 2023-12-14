@@ -50,6 +50,23 @@ const Hero = () => {
               Learn more
             </Link>
           </div>
+          <div className="flex mt-12 space-x-[10px]">
+            <span
+              className={`${currentImageIndex === 0 ? "bg-[#fe50061a] border-[0.5px] border-orange text-orange" : "bg-transparent text-white border border-white"} w-[34px] h-[34px] rounded-full flex items-center justify-center  `}
+            >
+              1
+            </span>
+            <span
+              className={`${currentImageIndex === 1 ? "bg-[#fe50061a] border-[0.5px] border-orange text-orange" : "bg-transparent text-white border border-white"} w-[34px] h-[34px] rounded-full flex items-center justify-center  `}
+            >
+              2
+            </span>
+            <span
+              className={`${currentImageIndex === 2 ? "bg-[#fe50061a] border-[0.5px] border-orange text-orange" : "bg-transparent text-white  border-white border-[0.5px]  " } w-[34px] h-[34px] rounded-full flex items-center justify-center  `}
+            >
+              3
+            </span>
+          </div>
         </div>
       </ContainerLayout>
     </div>
