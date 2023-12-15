@@ -16,7 +16,7 @@ const Resources = () => {
                 </h1>
                 <div className="w-full grid grid-cols-1 lg:grid-cols-3 max-w-[1100px] gap-6 mt-10 lg:mt-[60px] mx-auto   ">
                   {/* starty */}
-                  <Link href="/" target='_blank'  className="bg-white flex flex-col justify-between min-h-[258px] p-6" >
+                  <Link href="/"   className="bg-white flex flex-col justify-between min-h-[258px] p-6" >
                     <Rlogo />
 
                     <p className="text-customBlack font-bold text-sm lg:text-lg">
@@ -25,7 +25,7 @@ const Resources = () => {
                   </Link>
                   {/* end */}
                   {/* starty */}
-                  <Link href="/" target='_blank'  className="bg-white flex flex-col justify-between min-h-[258px] p-6">
+                  <Link href="/"   className="bg-white flex flex-col justify-between min-h-[258px] p-6">
                     <Rlogo />
 
                     <p className="text-customBlack font-bold text-sm lg:text-lg">
@@ -34,7 +34,7 @@ const Resources = () => {
                   </Link>
                   {/* end */}
                   {/* starty */}
-                  <Link href="/" target='_blank'  className="bg-white flex flex-col justify-between min-h-[258px] p-6">
+                  <Link href="/"   className="bg-white flex flex-col justify-between min-h-[258px] p-6">
                     <Rlogo />
 
                     <p className="text-customBlack font-bold text-sm lg:text-lg">
