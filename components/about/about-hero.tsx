@@ -2,7 +2,7 @@ import ContainerLayout from "../../Layouts/ContainerLayout";
 
 const AboutHero = () => {
   return (
-    <div className="w-full flex flex-col relative min-h-screen mb-64 bg-white ">
+    <div className="w-full flex flex-col relative min-h-screen mb-4 lg:mb-64 bg-white ">
       <div className="w-full about-hero-bg  flow-hide min-h-[720px] flex flex-col justify-center items-center">
         <ContainerLayout>
           <div className="w-full flex flex-col justify-center ">

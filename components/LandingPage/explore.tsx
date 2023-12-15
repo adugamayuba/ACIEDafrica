@@ -2,9 +2,9 @@ import React from 'react'
 import ContainerLayout from '../../Layouts/ContainerLayout';
 import globe from "../../assets/png/pic-a.png";
 import Image from 'next/image';
-import second from "../../assets/png/pic-b.png";
-import third from "../../assets/png/pic-c.png";
-import fourth from "../../assets/png/pic-d.png";
+import second from "../../assets/svg/stars.svg";
+import third from "../../assets/svg/drum.svg";
+import fourth from "../../assets/svg/child.svg";
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 const Explore = () => {
@@ -16,7 +16,7 @@ const Explore = () => {
             {/* lefr side */}
             <div className="w-full ">
               <div className="w-full flex flex-col max-w-[585px]">
-                <h1 className="text-customBlack font-bold noto  lg:text-[48px] xl:text-[56px] text-[28px]">
+                <h1 className="text-customBlack font-bold noto  lg:text-[48px] xl:text-[56px] text-[28px] max-w-[814px]">
                   ACIEDafrica’s 4 Thematic Or Core Areas Of Activity
                 </h1>
               </div>

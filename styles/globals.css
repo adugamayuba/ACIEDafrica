@@ -38,6 +38,7 @@ background: rgba(208, 208, 210, 0.25);
 .about-one{
   border-radius: 8px 0px 0px 8px;
 background: linear-gradient(91deg, #97092F 0.71%, rgba(151, 9, 47, 0.90) 97.28%), url("/abt-one.png"), lightgray 50% / cover no-repeat;
+width: 100%;
 }
 .about-one-s{
   border-radius: 8px;
@@ -96,6 +97,19 @@ line-height: 24px;
   height: auto;
   background-size: cover;
   /* background-color: #FFFFFF00, #FFFFFFE5; */
+}
+.spec-one{
+  
+background: linear-gradient(90deg, #0A2449 0%, rgba(10, 36, 73, 0.90) 100%), url("/a-star.png"), lightgray 50% / cover no-repeat;
+}
+.spec-two{
+  
+background: linear-gradient(90deg, #0A2449 0%, rgba(10, 36, 73, 0.90) 100%), url("/b-star.png"), lightgray 50% / cover no-repeat;
+}
+.spec-three{
+  
+background: linear-gradient(90deg, #0A2449 0%, rgba(10, 36, 73, 0.90) 100%), url("/c-star.png"), lightgray 50% / cover no-repeat;
+background-position: center;
 }
 
 

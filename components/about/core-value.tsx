@@ -3,7 +3,7 @@ import ContainerLayout from '../../Layouts/ContainerLayout'
 
 const CoreValue = () => {
   return (
-    <div className="w-full flex flex-col bg-white py-[120px]">
+    <div className="w-full flex flex-col bg-white py-8 lg:py-[120px]">
       <ContainerLayout>
         <div className="w-full flex flex-col">
           <h1 className="text-black font-bold xl:text-[56px] mb-[60px] lg:text-[40px] text-3xl text-center leading-[60px] ">
