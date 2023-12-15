@@ -28,7 +28,8 @@ const Slideboard = () => {
         <ContainerLayout>
           <div className="w-full flex items-center justify-center space-y-12 lg:space-y-[60px]  flex-col">
             <h1 className="text-white  font-bold noto  lg:text-[48px] xl:text-[56px] text-[28px] max-w-[1200px] text-center mx-auto">
-              African Centre for Innovation, Education and Development
+              African Centre for Inclusive Entrepreneurship Resilience and
+              Social Innovation
             </h1>
             <div className="mt-12 w-fit">
               <Link

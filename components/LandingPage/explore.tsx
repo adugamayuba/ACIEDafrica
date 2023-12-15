@@ -25,7 +25,7 @@ const Explore = () => {
             <div className="w-full grid lg:grid-cols-2 gap-8 ">
               {/* start  */}
               <Link
-                href={"https://www.facebook.com/profile.php?id=61553613248930"}
+                href={"/socio"}
                 className="w-full h-[258px] bg-[#0A2449] p-6 flex flex-col justify-between relative overflow-x-hidden overflow-y-hidden rounded-[8px]"
               >
                 <div className="absolute left-0 right-[-88px] bottom-[-88px] flex justify-end  z-1">
@@ -41,7 +41,7 @@ const Explore = () => {
               {/* end  */}
               {/* start  */}
               <Link
-                href={"https://www.facebook.com/profile.php?id=61553613248930"}
+                href={"/"}
                 className="w-full h-[258px] bg-orange p-6 flex flex-col justify-between relative overflow-x-hidden overflow-y-hidden rounded-[8px]"
               >
                 <div className="absolute left-0 right-[-5px] bottom-[-5px] flex justify-end  z-1">
@@ -57,7 +57,7 @@ const Explore = () => {
               {/* end  */}
               {/* start  */}
               <Link
-                href={"https://www.facebook.com/profile.php?id=61553613248930"}
+                href={"/"}
                 className="w-full h-[258px] bg-[#24A83A] p-6 flex flex-col justify-between relative overflow-x-hidden overflow-y-hidden rounded-[8px]"
               >
                 <div className="absolute left-0 right-[-5px] bottom-[-5px] flex justify-end  z-1">
@@ -72,7 +72,7 @@ const Explore = () => {
               {/* end  */}
               {/* start  */}
               <Link
-                href={"https://www.facebook.com/profile.php?id=61553613248930"}
+                href={"/"}
                 className="w-full h-[258px] bg-[#97092F] p-6 flex flex-col justify-between relative overflow-x-hidden overflow-y-hidden rounded-[8px]"
               >
                 <div className="absolute left-0 right-[-5px] bottom-[-5px] flex justify-end  z-1">
