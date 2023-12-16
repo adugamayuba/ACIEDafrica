@@ -11,32 +11,17 @@ const EnterHero = () => {
             <Back />
           </span>
           <h1 className="w-full max-w-[929px] font-bold text-customBlack text-[28px] sm:text-[28px] lg:text-[40px] 2xl:text-[64px] text-start ">
-            Socioeconomic Policies Research, Advocacy, Campaign and Stakeholders
-            Engagement
+            Entrepreneurial Skills, Enterprises Development, TVET, Mentoring and
+            Support for Youths and Women in businesses;
           </h1>
           <p className="mt-6 lg:text-lg text-base text-black max-w-[929px]">
-            The ACIEDafrica's work around policy research, campaign and advocacy
-            and engagement is to use evidence based information to enhance
-            decisions-making by promoting policy dialogue and win-win strategy
-            that offer all people an equal opportunity to create a sustainable
-            and inclusive business, and facilitate learning around economic,
-            social and environment policies for inclusive growth. The approach
-            by the Centre revolves around three pillars:
+            The way we work, learn, take part in society and lead our everyday
+            lives is changing with technological developments, global and
+            demographic challenges. The right skills and education help
+            individuals to adjust to these changes and ensure their well-being
+            while contributing to society, productivity and economic growth.
           </p>
-          <p className="mt-8 lg:text-lg text-base text-black max-w-[929px]">
-            i. Knowledge production through practical and skills-based policy
-            training to support the inclusive learning process (carrying out
-            participatory research such as policy analysis and evaluations)
-            Knowledge-sharing through effective engagement with all category of
-            stakeholders facilitating the exchange of innovative experiences and
-            case studies to support learning process from others’ experiences of
-            achieving policy change in challenging conditions, and;
-          </p>
-          <p className="mt-8 lg:text-lg text-base text-black max-w-[929px]">
-            ii. Capacity-strengthening & advisory services (promoting the
-            collaborative construction of capacity-building activities among
-            stakeholder groups).
-          </p>
+         
         </div>
       </ContainerLayout>
     </div>
