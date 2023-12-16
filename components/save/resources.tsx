@@ -4,6 +4,7 @@ import { Rlogo } from '../../assets/svg';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
+
 const Resources = () => {
     return (
       <div className="bg-primary">

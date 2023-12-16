@@ -1,8 +1,8 @@
-import React from 'react'
-import ContainerLayout from '../../Layouts/ContainerLayout'
-import { useRouter } from 'next/router'
-const SocioHero = () => {
-    const router = useRouter();
+import React from "react";
+import ContainerLayout from "../../Layouts/ContainerLayout";
+import { useRouter } from "next/router";
+const EnterHero = () => {
+  const router = useRouter();
   return (
     <div className="w-full mt-24 py-2 lg:pt-16 pb-8 lg:pb-16  ">
       <ContainerLayout>
@@ -41,27 +41,24 @@ const SocioHero = () => {
       </ContainerLayout>
     </div>
   );
-}
+};
 
-
-
-export default SocioHero
-
+export default EnterHero;
 
 const Back = () => {
-    return (
-      <svg
-        width="40"
-        height="40"
-        viewBox="0 0 40 40"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="39.84" height="39.84" rx="19.92" fill="#F2F4F5" />
-        <path
-          d="M27.84 18.92V20.92H15.84L21.34 26.42L19.92 27.84L12 19.92L19.92 12L21.34 13.42L15.84 18.92H27.84Z"
-          fill="black"
-        />
-      </svg>
-    );
-}
+  return (
+    <svg
+      width="40"
+      height="40"
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="39.84" height="39.84" rx="19.92" fill="#F2F4F5" />
+      <path
+        d="M27.84 18.92V20.92H15.84L21.34 26.42L19.92 27.84L12 19.92L19.92 12L21.34 13.42L15.84 18.92H27.84Z"
+        fill="black"
+      />
+    </svg>
+  );
+};

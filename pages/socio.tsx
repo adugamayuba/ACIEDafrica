@@ -6,6 +6,7 @@ import MobileNav from '../components/Navbar/MobileNav';
 import Slideboard from '../components/about/Slideboard';
 import SocioHero from '../components/socio/socio-hero';
 import Brief from '../components/socio/Brief';
+import Gallery from '../components/socio/Gallery';
 const Socio = () => {
   return (
     <div className="w-full flex flex-col">
@@ -15,7 +16,8 @@ const Socio = () => {
       <Navbar />
           <MobileNav />
           <SocioHero />
-<Brief />
+      <Brief />
+      <Gallery />
       <Slideboard />
 
       <Footer />
