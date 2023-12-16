@@ -57,7 +57,7 @@ const Explore = () => {
               {/* end  */}
               {/* start  */}
               <Link
-                href={"/"}
+                href={"/sustain"}
                 className="w-full h-[258px] bg-[#24A83A] p-6 flex flex-col justify-between relative overflow-x-hidden overflow-y-hidden rounded-[8px]"
               >
                 <div className="absolute left-0 right-[-5px] bottom-[-5px] flex justify-end  z-1">

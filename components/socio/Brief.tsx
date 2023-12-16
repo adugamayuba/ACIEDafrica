@@ -1,6 +1,6 @@
 import React from 'react'
 import ContainerLayout from '../../Layouts/ContainerLayout'
-import picA from "../../assets/png/socio-a.png"
+import picA from "../../assets/png/soc-2.png"
 import picB from "../../assets/png/socio-b.png"
 import Image from 'next/image'
 const Brief = () => {
