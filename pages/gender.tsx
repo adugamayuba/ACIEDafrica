@@ -8,6 +8,8 @@ import StageTwo from "../components/gender/StageTwo";
 import Stagethree from "../components/gender/Stagethree";
 import GenderGallery from "../components/gender/GenderGallery";
 import Banner from "../components/gender/Banner";
+import Health from "../components/gender/Health";
+import Education from "../components/gender/Education";
 
 const Sustain = () => {
   return (
@@ -22,6 +24,8 @@ const Sustain = () => {
       <Stagethree />
       <GenderGallery />
       <Banner />
+      <Health />
+      <Education />
       <Slideboard />
       <Footer />
     </div>
