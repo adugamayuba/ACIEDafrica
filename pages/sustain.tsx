@@ -6,6 +6,9 @@ import MobileNav from '../components/Navbar/MobileNav';
 import SustainApproach from '../components/sustain/sustain-approach';
 import Footer from '../components/LandingPage/Footer';
 import Slideboard from '../components/about/Slideboard';
+import SustainGallery from '../components/sustain/sustain-gallery';
+import SustainSupport from '../components/sustain/support';
+import OtherGallery from '../components/sustain/otherGallery';
 
 const Sustain = () => {
   return (
@@ -16,7 +19,10 @@ const Sustain = () => {
       <Navbar />
           <MobileNav />
           <SustainHero />
-          <SustainApproach />
+      <SustainApproach />
+      <SustainGallery />
+      <SustainSupport />
+      <OtherGallery />
 <Slideboard />
           <Footer />
     </div>
