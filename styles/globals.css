@@ -102,6 +102,12 @@ line-height: 24px;
   background-size: cover;
   /* background-color: #FFFFFF00, #FFFFFFE5; */
 }
+.flat-four{
+  background: linear-gradient(92deg, #97092F 3.38%, rgba(151, 9, 47, 0.70) 98.46%), url("/flat-4.png"), lightgray 50% / cover no-repeat;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+}
 .spec-one{
   
 background: linear-gradient(90deg, #0A2449 0%, rgba(10, 36, 73, 0.90) 100%), url("/a-star.png"), lightgray 50% / cover no-repeat;

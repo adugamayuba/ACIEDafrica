@@ -72,7 +72,7 @@ const Explore = () => {
               {/* end  */}
               {/* start  */}
               <Link
-                href={"/"}
+                href={"/gender"}
                 className="w-full h-[258px] bg-[#97092F] p-6 flex flex-col justify-between relative overflow-x-hidden overflow-y-hidden rounded-[8px]"
               >
                 <div className="absolute left-0 right-[-5px] bottom-[-5px] flex justify-end  z-1">
