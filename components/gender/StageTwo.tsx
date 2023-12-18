@@ -12,7 +12,7 @@ const StageTwo = () => {
                   <div className="w-full lg:w-5/12">
                       <Image src={bepo} alt='bep' loading='lazy' />
                   </div>
-                  <div className="w-full lg:w-5/12 flex flex-col justify-center">
+                  <div className="w-full lg:w-5/12 flex flex-col justify-center mt-8 lg:mt-0">
                       {
                           genderStudiesOne?.map((item: any, index: number) => {
                               return (

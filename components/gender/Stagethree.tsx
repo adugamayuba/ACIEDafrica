@@ -4,7 +4,7 @@ import { HeaderTwo, BodyNormal } from "../HeaderText";
 
 import Image from "next/image";
 import sone from "../../assets/png/bep-i.png";
-import stwo from "../../assets/png/bep-j.png";
+import stwo from "../../assets/svg/pro.png";
 const Stagethree = () => {
   return (
     <div className="w-full py-12 bg lg:py-[120px] bg-[#97092F]">
@@ -13,7 +13,7 @@ const Stagethree = () => {
           {/* upper session */}
           <div className="w-full flex flex-col lg:flex-row justify-between lg:items-center">
             {/* ;eft */}
-            <div className="w-full lg:w-7/12 flex flex-col space-y-6 mt-6 lg:mt-0">
+            <div className="w-full lg:w-7/12 flex flex-col space-y-6 mt-6 lg:mt-0 mb-8 lg:mb-0">
               <HeaderTwo text="Gender Studies/Action Learning Methodology " />
               <BodyNormal text="We champion the adaption of Gender Action Learning in Nigeria through a community-led empowerment methodology and integration of gender in development policies and programmes. We build partnership with indigenous communities and community-based organizations in piloting a community-led gender learning process that gives women and men more control over their lives and to support a sustainable movement for gender equality and socioeconomic justice." />
             </div>
@@ -27,10 +27,10 @@ const Stagethree = () => {
           </div>
           {/* end pf of upper session */}
           {/* upper session */}
-          <div className="w-full flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:justify-between lg:items-center mt-12 lg:mt-20">
-            <div className="w-full lg:w-4/12">
+          <div className="w-full flex flex-col-reverse lg:flex-row space-y-6 lg:space-y-0 lg:justify-between lg:items-center mt-12 lg:mt-20">
+            <div className="w-full lg:w-4/12 mt-8 lg:mt-0">
               <span>
-                <Image  alt="load" src={stwo}  />
+                <Image alt="load" src={stwo} />
               </span>
             </div>
             <div className="w-full lg:w-7/12 flex flex-col space-y-8">

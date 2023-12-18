@@ -10,7 +10,7 @@ const Health = () => {
       <ContainerLayout>
         <div className="w-full flex lg:flex-row flex-col-reverse space-y-8 lg:space-y-0  lg:justify-between lg:items-center">
           <div className="w-full lg:w-6/12 flex flex-col">
-            <HeaderTwo text="Health" color="text-black" className="mb-6" />
+            <HeaderTwo text="Health" color="text-black" className="mb-6 mt-6 lg:mt-0" />
             <p className="text-base lg:text-lg text-black mb-8 ">
               <span className="font-bold">
                 Behavioral Health Equity Promotion –
