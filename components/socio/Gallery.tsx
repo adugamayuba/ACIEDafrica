@@ -5,7 +5,7 @@ import Image from 'next/image';
 import non from "../../assets/svg/active.svg"
 import active from "../../assets/svg/non-active.svg"
 
-const Gallery = () => {
+const Gallery = ({images} : {images:any}) => {
   return (
     <div className="w-full lg:py-[120px] py-10">
       <ContainerLayout>
@@ -17,15 +17,21 @@ const Gallery = () => {
             Explore our gallery to see the impact we have made
           </h1>
           <div className="w-full grid grid-cols-1 gap-6 lg:grid-cols-3">
-            <div className="w-full">
-              <Image src={banner} alt='banner' loading='lazy' className='rounded-[8px]' />
-            </div>
-            <div className="w-full">
-              <Image src={banner} alt='banner' loading='lazy' className='rounded-[8px]' />
-            </div>
-            <div className="w-full">
-              <Image src={banner} alt='banner' loading='lazy' className='rounded-[8px]' />
-            </div>
+            {
+              images?.map((item: any, index: number) => {
+                return (
+                  <div className="w-full" key={index}>
+                    <Image
+                      src={item}
+                      alt="banner"
+                      loading="lazy"
+                      className="rounded-[8px]"
+                    />
+                  </div>
+                );
+              })
+            }
+          
           </div>
           <div className="mt-8 lg:mt-[60px] flex items-center justify-center space-x-[10px]">
             <span>

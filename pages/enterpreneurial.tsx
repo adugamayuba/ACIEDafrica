@@ -9,8 +9,12 @@ import Slideboard from "../components/about/Slideboard";
 import Core from "../components/enterpreneurial/Core";
 import Gallery from "../components/socio/Gallery";
 import CoreB from "../components/enterpreneurial/CoreB";
+import boyA from "../assets/png/boy-one.png"
+import boyB from "../assets/png/boy-two.png"
+import boyC from "../assets/png/boy-three.jpg"
 
 const Enter = () => {
+  const images = [boyA, boyB, boyC];
   return (
     <div className="w-full flex flex-col">
       <Head>
@@ -22,7 +26,7 @@ const Enter = () => {
           <EnterApproach />
           <Core />
           <CoreB />
-          <Gallery />
+          <Gallery images={images} />
           <Slideboard />
           <Footer />
     </div>
