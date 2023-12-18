@@ -51,7 +51,7 @@ const Navbar = () => {
           <div className="w-fit flex items-center  space-x-4   ">
             <p
               onClick={() => router.push("#contact")}
-              className="w-auto  px-8 py-4 hover:border hover:border-customBlack text-white hover:bg-white bg-primary hover:text-customBlack flex items-center justify-center   cursor-pointer"
+              className="w-auto  px-8 py-4 hover:border hover:border-customBlack text-white hover:bg-white bg-orange hover:text-customBlack flex items-center justify-center   cursor-pointer rounded-[4px]"
             >
               Contact us
             </p>
