@@ -16,7 +16,7 @@ const StageTwo = () => {
                       {
                           genderStudiesOne?.map((item: any, index: number) => {
                               return (
-                                  <span className='flex  text-black text-base lg:text-lg'>
+                                  <span className='flex  text-black text-base lg:text-lg' key={index}>
                                    {index + 1}.   
                                   <BodyNormal color='text-black' className='ml-2' text={item} key={index} />
                                   </span>
