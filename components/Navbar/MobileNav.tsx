@@ -48,22 +48,38 @@ const MobileNav = ({present} : any ) => {
                 </div>
                 <div className="w-full py-2 " onClick={() => setShow(false)}>
                   <Link
-                    href="https://www.facebook.com/profile.php?id=61553613248930"
-                    target='_blank'
+                    href="/socio"
                     className="text-[#4f4f4f] text-lg font-[500]"
                   >
-                    Testimonials
+                    Socioeconomic Policy
+                  </Link>
+                </div>
+                <div className="w-full py-2 " onClick={() => setShow(false)}>
+                  <Link
+                    href="/enterpreneurial"
+                    className="text-[#4f4f4f] text-lg font-[500]"
+                  >
+                    Entrepreneurial Skills
+                  </Link>
+                </div>
+                <div className="w-full py-2 " onClick={() => setShow(false)}>
+                  <Link
+                    href="/sustain"
+                    className="text-[#4f4f4f] text-lg font-[500]"
+                  >
+                    Sustainable  Agriculture
+                  </Link>
+                </div>
+                <div className="w-full py-2 " onClick={() => setShow(false)}>
+                  <Link
+                    href="/gender"
+                    className="text-[#4f4f4f] text-lg font-[500]"
+                  >
+                    Gender Studies
                   </Link>
                 </div>
 
-                <div className="w-full py-2 " onClick={() => setShow(false)}>
-                  <Link
-                    href="#contact"
-                    className="text-[#4f4f4f] text-lg font-[500]"
-                  >
-                    Contact Us
-                  </Link>
-                </div>
+               
                 <div className="w-full flex items-center space-x-4 pt-20 ">
                   <Link
                     href="https://www.facebook.com/profile.php?id=61553613248930"
