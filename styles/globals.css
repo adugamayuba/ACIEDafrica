@@ -60,6 +60,30 @@ background: linear-gradient(91deg, #24A83A 0.71%, rgba(36, 168, 58, 0.90) 97.28%
   background: linear-gradient(91deg, #24A83A 0.71%, rgba(36, 168, 58, 0.90) 97.28%), url("/abt-one.png"), lightgray 50% / cover no-repeat;
   
 }
+.star-one{
+  border-radius: 8px;
+background: linear-gradient(91deg, #24A83A 0.71%, rgba(36, 168, 58, 0.90) 97.28%), url("/abt-one.png"), lightgray 50% / cover no-repeat;
+}
+.star-two{
+  border-radius: 8px;
+background: linear-gradient(90deg, #0A2449 0%, rgba(10, 36, 73, 0.90) 100%), url("/abt-two.png"), lightgray 50% / cover no-repeat;
+}
+.star-three{
+  border-radius: 8px;
+background: linear-gradient(91deg, #97092F 0.71%, rgba(151, 9, 47, 0.90) 97.28%), url("/b-star.png"), lightgray 50% / cover no-repeat;
+}
+.star-four{
+  border-radius: 8px;
+background: linear-gradient(91deg, #FE5006 0.71%, rgba(254, 80, 6, 0.81) 97.28%), url("/a-star.png"), lightgray 50% / cover no-repeat;
+}
+.star-five{
+  border-radius: 8px;
+background: linear-gradient(90deg, #D2A601 0%, rgba(210, 166, 1, 0.80) 100%), url("/c-star.png"), lightgray 50% / cover no-repeat;
+}
+.star-six{
+  border-radius: 8px;
+background: linear-gradient(91deg, #01A4DB 0.71%, rgba(1, 164, 219, 0.80) 97.28%), url("/abt-one.png"), lightgray 50% / cover no-repeat;
+}
 .learn-btn{
   border-radius: 4px;
 border: 0.5px solid rgba(255, 255, 255, 0.50);
