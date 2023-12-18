@@ -11,6 +11,7 @@ import Banner from "../components/gender/Banner";
 import Health from "../components/gender/Health";
 import Education from "../components/gender/Education";
 import ProgramStrategy from "../components/gender/ProgramStrategy";
+import Water from "../components/gender/Water";
 
 const Sustain = () => {
   return (
@@ -28,6 +29,7 @@ const Sustain = () => {
       <Health />
       <Education />
       <ProgramStrategy />
+      <Water />
       <Slideboard />
       <Footer />
     </div>
